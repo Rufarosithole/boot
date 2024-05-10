@@ -290,12 +290,12 @@ h4{
    
 i{
     background-color: "";
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
     border: $lineone solid $white;
     margin: 6px;
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 47px;
    
 }
 
@@ -324,7 +324,7 @@ i{
 
 
 
-@mixin contact{
+@mixin call{
     font-family: Montserrat;
     text-align: center;
     padding-top: 43px;
@@ -437,6 +437,11 @@ h2{
 
 @media only screen and (max-width: 667px){
 
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        font-size: 16px;
+    }
+
 
     .bg-dark{
         display: flex;
@@ -482,8 +487,9 @@ h2{
                 height: 30vh;
                 object-fit: cover;
         margin-top: 0px;
-        padding-bottom: 0px;
-        margin-top: 6px;
+        padding-bottom: 11px;
+        margin-top: 16px;
+
             }
             .col-md-4{
                 margin: 0px;
@@ -599,7 +605,7 @@ h2{
                 margin-bottom: 12px;
             }
             i{
-                padding: 20px;
+                padding: 15px;
             }
             .circles{
                 padding-bottom: 10px;
@@ -634,6 +640,11 @@ h2{
 
         @media  (min-width: 678px) and (max-width: 991px){
 
+            .navbar-dark .navbar-brand {
+                color: #fff;
+                font-size: 20px;
+            }
+
             .bg-dark{
                 display: flex;
                 width: 766px;
@@ -644,6 +655,8 @@ h2{
                 right: -41px;
                 width: 588px;
             }
+
+           
 
         .great img{
             height: 18vh;
@@ -706,6 +719,11 @@ h2{
 
     @media (min-width: 991px) and (max-width: 1024px){
 
+        .navbar-dark .navbar-brand {
+            color: #fff;
+            font-size: 26px;
+        }
+
         .bg-dark{
             display: flex;
         }
@@ -760,7 +778,17 @@ h2{
             margin-bottom: 50px;
             margin-left: 10px;
     }
+
+    .call .form-control {
+        padding: 25px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 0px;
+        width: 760px;
+        margin-left: -2px;
 }
+    }
         
     
 

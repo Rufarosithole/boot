@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url("Montserrat-Bold.ttf");
+  src: url("Montserrat-Regular.ttf");
 }
 .bg-dark {
   display: none;
@@ -19,18 +19,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Montserrat;
 }
 .main p {
   font-size: 18px;
   color: #ffffff;
   font-weight: bolder;
   margin-top: 10px;
+  font-family: Montserrat;
 }
 .main a {
   margin-left: 20px;
   font-size: 12px;
   text-decoration: none;
   color: #ffffff;
+  font-family: Montserrat;
 }
 
 .nav-item {
@@ -57,10 +60,12 @@
   font-size: 16px;
   color: #ffffff;
   margin: 12px;
+  font-family: Montserrat;
 }
 .great h1 {
   font-size: 35px;
   color: white;
+  font-family: Montserrat;
 }
 .great .line {
   margin-bottom: 8px;
@@ -201,12 +206,12 @@
 }
 .bottom i {
   background-color: "";
-  padding: 20px;
+  padding: 15px;
   border-radius: 50%;
   border: 1px solid #ffffff;
   margin: 6px;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 47px;
 }
 .bottom .circles {
   display: flex;
@@ -288,6 +293,10 @@
 }
 
 @media only screen and (max-width: 667px) {
+  .navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 16px;
+  }
   .bg-dark {
     display: flex;
     height: 80px;
@@ -330,8 +339,8 @@
     -o-object-fit: cover;
        object-fit: cover;
     margin-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 6px;
+    padding-bottom: 11px;
+    margin-top: 16px;
   }
   .port .col-md-4 {
     margin: 0px;
@@ -433,7 +442,7 @@
     margin-bottom: 12px;
   }
   .bottom i {
-    padding: 20px;
+    padding: 15px;
   }
   .bottom .circles {
     padding-bottom: 10px;
@@ -461,6 +470,10 @@
   }
 }
 @media (min-width: 678px) and (max-width: 991px) {
+  .navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+  }
   .bg-dark {
     display: flex;
     width: 766px;
@@ -521,6 +534,10 @@
   }
 }
 @media (min-width: 991px) and (max-width: 1024px) {
+  .navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 26px;
+  }
   .bg-dark {
     display: flex;
   }
@@ -566,5 +583,14 @@
     border-radius: 5px;
     margin-bottom: 50px;
     margin-left: 10px;
+  }
+  .call .form-control {
+    padding: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    width: 760px;
+    margin-left: -2px;
   }
 }/*# sourceMappingURL=index.css.map */
